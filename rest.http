@@ -1,0 +1,108 @@
+
+
+
+
+
+
+
+## BUSCAR TODOS OS PRODUTOS
+GET http://localhost:3000/api/products
+
+
+
+
+
+
+
+
+### CRIAR UM PRODUTO
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+    "name": "Playstation 5"
+    
+}
+
+
+
+
+
+
+
+
+### SOLICITAR UM PRODUTO
+GET http://localhost:3000/api/products/627eccf5ffadad9377b1ac0c
+
+
+
+
+
+
+
+### ATUALIZAR UM PRODUTO
+PATCH http://localhost:3000/api/products/627ecce2ffadad9377b1ac0a
+Content-Type: application/json
+
+{
+    "name": "iMac Book Pro 2022"
+   
+}
+
+
+
+
+
+
+### DELETAR UM PRODUTO
+DELETE http://localhost:3000/api/products/627ecb54ffadad9377b1ac04
+
+
+
+
+
+
+
+### REQUISIÇÃO PARA HOME
+GET http://localhost:3000/api/products
+
+
+
+
+
+
+### TESTE
+GET http://localhost:3000/test?nome=elson
+
+
+
+
+
+
+### CRIAR 
+POST http://localhost:3000/test
+
+Content-Type: application/json
+{
+    "name": "iMacPro",
+    "price": "2999"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
