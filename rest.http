@@ -20,7 +20,8 @@ POST http://localhost:3000/api/products
 Content-Type: application/json
 
 {
-    "name": "Playstation 5"
+    "name": "Camisa regata",
+    "price": "20"
     
 }
 
@@ -79,13 +80,33 @@ GET http://localhost:3000/test?nome=elson
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### CRIAR 
 POST http://localhost:3000/test
 
 Content-Type: application/json
 {
-    "name": "iMacPro",
-    "price": "2999"
+    "name": "iMacPro II",
+    "price": "3500"
 }
 
 
